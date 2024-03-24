@@ -1,0 +1,59 @@
+
+
+.nav
+{
+    background-color: black;
+    border-radius: 0px ;
+    height: 50px;
+    width: 100%;
+    color: aliceblue;
+
+  }
+  .nav ul
+  {
+     
+     display: flex;
+     float: right;
+     padding-right: 2%;
+     box-shadow: 5px 5px 100px rgba(0, 0, 0, .5);
+     justify-content: space-evenly;
+
+
+  }
+  .nav li
+  {
+    list-style: none;
+    padding-bottom: 0;
+  }
+  .nav li a
+  {
+    color: white;
+    padding: 3px 3px;
+    text-decoration: none;
+  }
+  .nav li a:hover
+  {
+    color: red;
+  }
+  .search
+  {
+    color: white;
+  }
+  .nav input
+  {
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+  }
+  .bg_image
+  {
+   position: absolute;
+   text-align: center;
+  }
+  .box
+  {
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
